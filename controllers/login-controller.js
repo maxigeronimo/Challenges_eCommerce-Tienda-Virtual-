@@ -26,7 +26,7 @@ function enviar(event) {
   productoServices
     .creaMensje(nombre, resultado, respuesta)
     .then((resposta) => {
-      window.location.href = "../screens/index.html";
+      window.location.href = "../index.html";
       console.log(resposta);
     })
     .catch((err) => {

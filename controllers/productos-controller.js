@@ -82,7 +82,7 @@ xhttp.onreadystatechange = function () {
                     </li>
                     <li class="product-name">${prod.name}</li>
                     <li class="preco">${formatPrice(prod.price)}</li>
-                    <li><a class="ver-produto" href="verProducto.html?id=${
+                    <li><a class="ver-produto" href="../screens/verProducto.html?id=${
                       prod.id
                     }">Ver Producto</a></li>
                   </ul>
@@ -119,7 +119,7 @@ function enviar(event) {
   productoServices
     .creaMensje(nombre, resultado, respuesta)
     .then((resposta) => {
-      window.location.href = "../screens/index.html";
+      window.location.href = "../index.html";
       console.log(resposta);
     })
     .catch((err) => {
