@@ -9,7 +9,7 @@ const nuevoProduto = (name, price, imageUrl, id) => {
             </li>
             <li class="product-name">${name}</li>
             <li class="preco">${formatPrice(price)}</li>
-            <li><a class="ver-produto" href="verProducto.html?id=${id}">Ver Producto</a></li>
+            <li><a class="ver-produto" href="../screens/verProducto.html?id=${id}">Ver Producto</a></li>
           </ul>
         </div>`;
   card.innerHTML = contenido;
