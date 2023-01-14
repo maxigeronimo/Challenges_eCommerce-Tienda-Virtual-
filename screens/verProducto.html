@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" type="text/css" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap" />
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/verProducts.css">
+  <link rel="shortcut icon" type="imagex/png" href="../assets/Logo.svg" width="16" height="16">
+  <title>Alura Geek</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo-busqueda">
+        <div class="logo">
+          <a href="index.html"><img src="../assets/logo.png" alt="logo" /></a>
+          <p class="logo-azul">Alura</p>
+          <p>Geek</p>
+        </div>
+        <button class="head__search__bar__button" type="submit" id="botonj">
+          <input class="head__search__bar__input" type="text" id="formularioj" placeholder="Qué deseas buscar?" />
+          <img class="head__search__bar__img" src="../assets/lupa-negro.png" alt="Buscar">
+        </button>
+        <!-- <form action="" class="head__search__bar">
+          <input  type="search" placeholder="¿Qué deseas buscar?" name="q"
+            id="formulario" data-search>
+          <button class="head__search__bar__button" type="submit" id="boton">
+            <img class="head__search__bar__img" src="../assets/lupa-negro.png" alt="Buscar">
+          </button>
+        </form> -->
+      </div>
+      <div class="login">
+        <div class="logo2">
+          <img src="../assets/logo.png" alt="logo" />
+          <p class="logo-azul">Alura</p>
+          <p>Geek</p>
+        </div>
+        <!-- <a href="login.html"><button type="submit">Login</button></a> -->
+        <div class="lupa">
+          <img src="../assets/lupa-negro.png" alt="logo" />
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="viewProduct" data-viewProduct>
+    <!-- <div class="viewProduct__container">
+      <img class="viewProduct__image" src="../assets/babyyoda.png">
+      <ul class="viewProduct__info">
+        <li class="viewProduct__tittle">Producto XYZ</li>
+        <li class="viewProduct__price">$999</li>
+        <li class="viewProduct__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolore
+          ducimus cum. Voluptates suscipit ipsam nam voluptas nulla. Necessitatibus earum reprehenderit, fugit tenetur a
+          voluptas. Ipsum, reiciendis quae. Totam, voluptatibus?</li>
+      </ul>
+    </div> -->
+    <form action="#" class="viewProduct__container" data-form>
+      <img class="viewProduct__image" src="" data-url />
+      <ul class="viewProduct__info">
+        <li><input class="viewProduct__tittle" type="text" disabled data-nombre /></li>
+        <li><input class="viewProduct__price" type="text" disabled data-precio /></li>
+        <li><textarea class="viewProduct__description" type="text" disabled data-descripcion></textarea></li>
+      </ul>
+    </form>
+  </section>
+
+  <section class="products">
+    <!-- Productos: Star War -->
+    <div class="products__section">
+      <div class="prod-titulo">
+        <h2 class="titulo">Productos similares</h2>
+      </div>
+      <div class="sessao-produtos" id="resultadoj">
+        <ul id="res">
+          <li>sadadsd</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato">
+    <div class="columna1">
+      <div class="referencia">
+        <a href="index.html"><img src="../assets/logo.png" alt="logo" /></a>
+        <p class="logo-azul">Alura</p>
+        <p>Geek</p>
+      </div>
+      <div class="links-uteis">
+        <a href="#">Quienes somos</a>
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Programa de fidelidad</a>
+        <a href="#">Nuestras Tiendas</a>
+        <a href="#">Quiero ser franquiciado</a>
+        <a href="#">Anuncie aquí</a>
+      </div>
+    </div>
+
+    <div class="form">
+      <h3 style="margin-block-end: 0rem;
+        margin-block-start: 0rem;
+        font-size: 25px;">Hable con nosotros</h3>
+      <div class="input-container">
+        <input class="formcontato__input" id="nombre" type="text" name="nombre" placeholder="Nombre" required>
+        <label class="input-label" for="nombre">Nombre</label>
+      </div>
+      <div class="input-container">
+        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
+          placeholder="Mensaje" required></textarea>
+        <label class="input-label" for="mensaje">Mensaje</label>
+
+      </div>
+      <button>Enviar Mensagem</button>
+    </div>
+  </section>
+  <footer>
+    <div class="developer__links">
+      <a href="https://github.com/Claubress" target="_blank">
+        <img class="developer__links__item" src="../assets/github.png" alt="Logo Github">
+      </a>
+      <a href="https://www.linkedin.com/in/claudio-bressan" target="_blank">
+        <img class="developer__links__item" src="../assets/in.png" alt="Logo Linkedin">
+      </a>
+    </div>
+    <div class="developer__text">
+      <p>Desarrollado por Fulana de Tal</p>
+      <p>2022</p>
+    </div>
+  </footer>
+  <script type="module" src="../controllers/ver-producto.js"></script>
+  <!-- <script type="module" src="../controllers/productos-controller.js"></script> -->
+  <!-- <script type="module" src="../controllers/buscador.js"></script> -->
+</body>
+
+</html>

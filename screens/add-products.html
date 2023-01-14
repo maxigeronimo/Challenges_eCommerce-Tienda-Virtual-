@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" type='text/css' content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap">
+  <link rel="shortcut icon" type="imagex/png" href="../assets/Logo.svg" width="16" height="16">
+  <link rel="stylesheet" href="../styles/style.css" />
+  <link rel="stylesheet" href="../styles/add-products.css" />
+  <title>Alura Geek</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="logo-busqueda">
+        <div class="logo">
+          <a href="index.html"><img src="../assets/logo.png" alt="logo" /></a>
+          <p class="logo-azul">Alura</p>
+          <p>Geek</p>
+        </div>
+        <button class="head__search__bar__button" type="submit" id="botonj">
+          <input class="head__search__bar__input" type="text" id="formularioj" placeholder="Qué deseas buscar?" />
+          <img class="head__search__bar__img" src="../assets/lupa-negro.png" alt="Buscar">
+        </button>
+        <!-- <form action="" class="head__search__bar">
+          <input  type="search" placeholder="¿Qué deseas buscar?" name="q"
+            id="formulario" data-search>
+          <button class="head__search__bar__button" type="submit" id="boton">
+            <img class="head__search__bar__img" src="../assets/lupa-negro.png" alt="Buscar">
+          </button>
+        </form> -->
+      </div>
+      <div class="login">
+        <div class="logo2">
+          <a href="index.html"><img src="../assets/logo.png" alt="logo" /></a>
+          <p class="logo-azul">Alura</p>
+          <p>Geek</p>
+        </div>
+        <a href="produto.html"><button type="submit">Menu Administrador</button></a>
+        <div class="lupa">
+          <img src="../assets/lupa-negro.png" alt="logo" />
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="product-add">
+      <div class="product-add_title">Adicionar novo produto</div>
+      <form class="form-cadastro" data-form>
+        <div class="input-container">
+          <input class="formcontato__input" id="nombre_url" type="url" name="nombre_url" placeholder="URL do imegen"
+            required data-url>
+          <label class="input-label" for="nombre_url">URL do Imegen</label>
+        </div>
+        <div class="input-container">
+          <input class="formcontato__input" id="categoria_producto" type="text" name="categoria_producto"
+            placeholder="Categ do produto">
+          <label class="input-label" for="categoria_producto">Categ do produto</label>
+        </div>
+        <div class="input-container">
+          <input class="formcontato__input" id="nombre_producto" type="text" name="nombre_producto"
+            placeholder="Nome do produto" required data-nome>
+          <label class="input-label" for="nombre_producto">Nome do produto</label>
+        </div>
+        <div class="input-container">
+          <input class="formcontato__input" id="precio_producto" type="number" name="precio_producto"
+            placeholder="Preço do produto" required data-preco>
+          <label class="input-label" for="precio_producto">$ Preço do produto</label>
+        </div>
+        <div class="input-container">
+          <textarea class="formcontato__textarea" rows="5" cols="40" id="descrip_do_produto" name="descrip do produto"
+            placeholder="Descrip do produto" required data-descrip></textarea>
+          <label class="input-label" for="descrip do produto">Descrip do produto</label>
+
+        </div>
+        <button type="submit" class="product-add_btn">
+          Adicionar produto
+        </button>
+      </form>
+    </section>
+  </main>
+  <section class="contato">
+    <div class="columna1">
+      <div class="referencia">
+        <a href="index.html"><img src="../assets/logo.png" alt="logo" /></a>
+        <p class="logo-azul">Alura</p>
+        <p>Geek</p>
+      </div>
+      <div class="links-uteis">
+        <a href="#">Quienes somos</a>
+        <a href="#">Política de Privacidad</a>
+        <a href="#">Programa de fidelidad</a>
+        <a href="#">Nuestras Tiendas</a>
+        <a href="#">Quiero ser franquiciado</a>
+        <a href="#">Anuncie aquí</a>
+      </div>
+    </div>
+
+    <div class="form" id="formulario">
+      <h3 style="margin-block-end: 0rem;
+        margin-block-start: 0rem;
+        font-size: 25px;">Hable con nosotros</h3>
+      <div class="input-container">
+        <input class="formcontato__input" id="nombre" type="text" name="nombre" placeholder="Nombre" required>
+        <label class="input-label" for="nombre">Nombre</label>
+      </div>
+      <div class="input-container">
+        <textarea class="formcontato__textarea" rows="5" cols="40" id="resultado" name="mensaje"
+          placeholder="Mensaje" required></textarea>
+        <label class="input-label" for="mensaje">Mensaje</label>
+
+      </div>
+      <label for="respuesta">Respuesta: <input style="width: auto;" id="respuesta" type="checkbox"></label>
+
+      <button id="enviar">Enviar Mensagem</button>
+    </div>
+  </section>
+  <footer>
+    <div class="developer__links">
+      <a href="https://github.com/Claubress" target="_blank">
+        <img class="developer__links__item" src="../assets/github.png" alt="Logo Github">
+      </a>
+      <a href="https://www.linkedin.com/in/claudio-bressan" target="_blank">
+        <img class="developer__links__item" src="../assets/in.png" alt="Logo Linkedin">
+      </a>
+    </div>
+    <div class="developer__text">
+      <p>Desarrollado por Fulana de Tal</p>
+      <p>2022</p>
+    </div>
+  </footer>
+</body>
+
+<script type="module" src="../controllers/crea-productos-controller.js"></script>
+
+</html>

@@ -1,0 +1,168 @@
+{
+  "producto": [
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/canecasw.png",
+      "price": "4366",
+      "id": 1,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/legosw.png",
+      "price": "999",
+      "description": "esta en promocion",
+      "id": 2
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/yoda.png",
+      "price": "4366",
+      "id": 3,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/trupper.png",
+      "price": "4366",
+      "id": 4,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/babyyoda.png",
+      "price": "4366",
+      "id": 5,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/darth.png",
+      "price": "4366",
+      "id": 6,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/jsxbox.png",
+      "price": "4366",
+      "id": 7,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/ps5.png",
+      "price": "4366",
+      "id": 8,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/snes.png",
+      "price": "4366",
+      "id": 9,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/switch.png",
+      "price": "4366",
+      "id": 10,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/console.png",
+      "price": "4366",
+      "id": 11,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/gba.png",
+      "price": "4366",
+      "id": 12,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/atari.png",
+      "price": "4366",
+      "id": 13,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/camisasnes.png",
+      "price": "4366",
+      "id": 14,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/sonic.png",
+      "price": "4366",
+      "id": 15,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/relogio.png",
+      "price": "4366",
+      "id": 16,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/vr.png",
+      "price": "4366",
+      "id": 17,
+      "description": "buen producto!!"
+    },
+    {
+      "name": "Producto XYZ",
+      "imageUrl": "../assets/pikachu.png",
+      "price": "4366",
+      "id": 18,
+      "description": "buen producto!!"
+    }
+  ],
+  "prod": [
+    {
+      "name": "maxi",
+      "respuesta": true,
+      "mensaje": "drg",
+      "id": 1
+    },
+    {
+      "name": "hola",
+      "respuesta": true,
+      "mensaje": "index",
+      "id": 2
+    },
+    {
+      "name": "hola",
+      "respuesta": true,
+      "mensaje": "login",
+      "id": 3
+    },
+    {
+      "name": "hola",
+      "respuesta": true,
+      "mensaje": "producto",
+      "id": 4
+    },
+    {
+      "name": "hola",
+      "respuesta": true,
+      "mensaje": "add",
+      "id": 5
+    },
+    {
+      "name": "hola",
+      "respuesta": true,
+      "mensaje": "edit",
+      "id": 6
+    }
+  ]
+}

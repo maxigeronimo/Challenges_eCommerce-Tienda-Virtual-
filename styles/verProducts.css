@@ -1,0 +1,148 @@
+/* View Product */
+
+.prod-titulo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sessao-produtos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.prod-titulo .titulo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #464646;
+    margin-bottom: 16px;
+}
+li img {
+    height: 174px;
+}
+li {
+    list-style-type: none;
+    margin-bottom: 8px;
+}
+.product-name {
+    color: #464646;
+    font-weight: 500;
+    font-size: 14px;
+}
+.preco {
+    color: #464646;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* View Product */
+.viewProduct {
+    background-color: var(--color-gray);
+}
+
+.viewProduct__container {
+    border: 1px solid var(--selected-container);
+    display: flex;
+    margin: auto;
+    padding: 3rem 0 0;
+    width: var(--container-size);
+}
+
+
+.viewProduct__info {
+    border: 1px solid var(--selected-container);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style: none;
+    padding: 0 2rem;
+    width: 50%;
+}
+
+.viewProduct__tittle {
+    color: var(--color-darkgray);
+    font-size: 3rem;
+    font-weight: 500;
+    background: border-box;
+    border: none;
+}
+
+.viewProduct__price {
+    color: var(--color-darkgray);
+    font-weight: 700;
+    margin: 0.5rem 0;
+    background: border-box;
+    border: none;
+    font-size: 25px;
+}
+
+.viewProduct__description {
+    color: var(--color-darkgray);
+    font-weight: 400;
+    background: border-box;
+    width: 100%;
+    resize: none;
+    height: 10rem;
+    font-family: "Releway", sans-serif;
+    font-size: 15px;
+    border: none;
+}
+
+@media (min-width:360px) {
+    .viewProduct__container{
+        flex-direction: column;
+        width: 100%;
+        padding: 0%;
+    }
+    .viewProduct__info{
+        padding: 1rem;
+    width: 50%;
+    }
+    .viewProduct__image{
+    height: 327px;
+    
+    }
+    .products__section {
+        padding: 1rem;
+    }
+    .sessao-produtos {
+        justify-content: space-between;
+    }
+    .prod-titulo>.titulo {
+        margin: 0%;
+    }
+    .prod-titulo h2 {
+        padding: 0 0 1rem 0;
+    }
+    .card>li>img {
+        width: 142px;
+    }
+
+}
+@media (min-width:768px) {
+    .viewProduct__container{
+        flex-direction: inherit;
+    padding: 2rem ;
+    width: var(--container-size);
+    }
+    .products__section{
+        padding: 2rem;
+    }
+}
+@media (min-width:1024px) {
+.viewProduct__container{
+    padding: 4rem 9.5rem;
+}
+.viewProduct__image {
+    width: 560px;
+    height: 403px;
+    object-fit: cover;
+    /* width: 100%; */
+}
+.products__section {
+    padding: 1rem 9.5rem;
+}
+.card>li>img {
+    width: 156px;
+}
+}
