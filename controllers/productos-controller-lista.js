@@ -89,19 +89,19 @@ xhttp.onreadystatechange = function () {
               if (Nombre.indexOf(texto) != -1) {
                 result.innerHTML += `
                 <div class="sessao-produtos">
-        <div class="container">
-            <button class="deleteImage" type="button"  id="borrar">
-              <img class="buttonDelete" src="../assets/delete.png" alt="Deletar" />
-            </button>
-            
-            <a  href="../screens/edit-product.html?id=${prod.id}">
-            
-              <button class="editImage bg-primary" type="button">
-                <img class="buttonEdit" src="../assets/edit.png" alt="Editar" />
-              </button>
-            
-            </a>
-        </div>
+                    <div class="container">
+                        <button class="deleteImage" type="button"  id="borrar">
+                          <img class="buttonDelete" src="../assets/delete.png" alt="Deletar" />
+                        </button>
+                        
+                        <a  href="../screens/edit-product.html?id=${prod.id}">
+                        
+                          <button class="editImage bg-primary" type="button">
+                            <img class="buttonEdit" src="../assets/edit.png" alt="Editar" />
+                          </button>
+                        
+                        </a>
+                    </div>
         <ul class="card">
          <li><img class="card__image" src="${prod.imageUrl}" alt="Imagen producto">
          </li>
